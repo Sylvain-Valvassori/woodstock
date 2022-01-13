@@ -7,6 +7,7 @@
   <img width="auto" height="auto" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="GitHub's views"/>
   <img width="auto" height="auto" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="GitHub's views"/>
 </p>
+
 ### About
 Woodstock is a project adapted from this [model](https://www.figma.com/proto/fB6MeHVqXD5Gd9qzMPpzOc/WoodSock?node-id=0%3A2&scaling=min-zoom) to learn the basics and understand the React js library.
 
