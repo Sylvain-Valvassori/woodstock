@@ -1,9 +1,9 @@
 @use '../Library' as *;
 
-.C-Section{
+.B-Section{
     color: $clr-white;
     background-color: $clr-brun;
-    .C-Container{
+    .B-Container{
         position: relative;
         height: 100vh;
         width: 100%;
@@ -13,7 +13,7 @@
             font-size: 5rem;
             font-weight: 800;
         }
-        .titleSectionC{
+        .titleSectionB{
             z-index: 3;
             position: absolute;
             top: 5%;
@@ -27,14 +27,14 @@
             background-color: $clr-white;
         }
         // background-color: $clr-white; 
-        .C-Content{
+        .B-Content{
             width: 50%;
             height: 100%;
             display:grid;
             align-content: center;
             justify-content: center;            
             
-            .C-Item{
+            .B-Item{
                 width: 45rem;
                 margin: 12rem 5rem 5rem 5rem;
                 font-family: $fnt-main;

@@ -1,1 +1,61 @@
 @use '../Library' as *;
+
+.C-section{
+    height:100vh;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    background-color: $clr-white;
+    color: $clr-black;
+
+
+    h3{
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 5rem;
+    }
+    form{
+        display: flex;
+        gap: 2rem;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 44rem;
+        height: fit-content;
+
+        input,textarea,button{
+            &::placeholder{
+                color: $clr-accent;
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+            width: 21rem;
+            padding: 1rem 2rem;
+
+            border-radius: 1.2rem;
+            outline: none;
+            border: 1px solid $clr-lightGrey;
+        }
+        input[type=email], textarea{
+            width: 100%;
+        }
+        textarea{
+            min-height: 10rem;
+        }
+        button{
+            cursor: pointer;
+            margin-left: auto;
+            width: 10rem;
+            background-color: $clr-lightGrey;
+            color: $clr-white;
+            border: none;
+            transition: all .2s ease-out;
+
+            &:hover{
+                background-color: $clr-accent;
+            }
+        }
+    }
+}

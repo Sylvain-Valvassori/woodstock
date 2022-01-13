@@ -10,7 +10,7 @@ export default function About() {
     return (
         <>
             <section className='A-Section'>
-                <section className='A-Container'>
+                <section id='about' className='A-Container'>
                     <div className='A-Content'>
                         <div className='imgLeft'>
                             <img src={pictureOne} alt="chair"/>
@@ -25,7 +25,7 @@ export default function About() {
                         <LinkBtn text='Learn More'/>
                     </div>
                 </section>
-                <section className='A-Container'>
+                <section id='shop' className='A-Container'>
                     <div className='A-Content'>
                         <div className='A-Item'>
                             <h2>SHOP</h2>

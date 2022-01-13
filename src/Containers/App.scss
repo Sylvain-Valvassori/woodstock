@@ -4,4 +4,6 @@ html{
     font-family: $fnt-main;
     background-color: $clr-black;
     color: $clr-white;
+
+    scroll-behavior: smooth;
 }

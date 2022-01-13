@@ -4,9 +4,11 @@ import '../Scss/Components/Footer.scss';
 
 export default function Footer() {
     return (
-        <div>
-            
-        </div>
+        <>
+            <footer>
+                <h3>WOOD</h3>
+            </footer>
+        </>
     )
 }
 

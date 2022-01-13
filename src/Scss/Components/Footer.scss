@@ -1,1 +1,22 @@
 @use '../Library' as *;
+
+@use '../Library' as *;
+
+footer{
+    height:10rem;
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+
+    background-color: $clr-black;
+    color: $clr-white;
+
+
+    h3{
+        font-size: 5rem;
+        font-weight: 800;
+        letter-spacing: 1rem;
+    }
+}
