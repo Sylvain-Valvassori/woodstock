@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/woodstock2/static/css/main.fc872437.css",
-    "main.js": "/woodstock2/static/js/main.1d632a77.js",
-    "static/media/f5.jpg": "/woodstock2/static/media/f5.e47bad50d0f394c2a860.jpg",
-    "static/media/f4.jpg": "/woodstock2/static/media/f4.3934b6392b4ff74fd479.jpg",
-    "static/media/f1.jpg": "/woodstock2/static/media/f1.3f8f4e7aeb7b97a26e8a.jpg",
-    "static/media/logo_white.png": "/woodstock2/static/media/logo_white.8ccdd59ae1caca36aea6.png",
-    "index.html": "/woodstock2/index.html",
-    "main.fc872437.css.map": "/woodstock2/static/css/main.fc872437.css.map",
-    "main.1d632a77.js.map": "/woodstock2/static/js/main.1d632a77.js.map"
+    "main.css": "/woodstock/static/css/main.6ecd63e8.css",
+    "main.js": "/woodstock/static/js/main.5a35c87f.js",
+    "static/media/f5.jpg": "/woodstock/static/media/f5.e47bad50d0f394c2a860.jpg",
+    "static/media/f4.jpg": "/woodstock/static/media/f4.3934b6392b4ff74fd479.jpg",
+    "static/media/f1.jpg": "/woodstock/static/media/f1.3f8f4e7aeb7b97a26e8a.jpg",
+    "static/media/logo_white.png": "/woodstock/static/media/logo_white.8ccdd59ae1caca36aea6.png",
+    "index.html": "/woodstock/index.html",
+    "main.6ecd63e8.css.map": "/woodstock/static/css/main.6ecd63e8.css.map",
+    "main.5a35c87f.js.map": "/woodstock/static/js/main.5a35c87f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc872437.css",
-    "static/js/main.1d632a77.js"
+    "static/css/main.6ecd63e8.css",
+    "static/js/main.5a35c87f.js"
   ]
 }
