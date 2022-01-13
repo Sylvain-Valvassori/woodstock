@@ -1,0 +1,87 @@
+@use '../Library' as *;
+
+.A-Section{
+    .A-Container{
+        height: 100vh;
+        width: 100%;
+        display:flex;
+        padding: 0 5rem;
+        background-color: $clr-white; 
+        .A-Content{
+            
+            width: 50%;
+            height: 100%;
+            display:grid;
+            align-content: center;
+            justify-content: center;
+    
+            background-color: $clr-white;  
+            
+            .A-Item{
+                width: 45rem;
+                margin: 5rem;
+                font-family: $fnt-main;
+                h2{
+                    font-size: 3rem;
+                    font-weight: 600;
+                    color: $clr-black;
+                    border-left: 1rem solid $clr-accent-op;
+                    padding-left: 1rem;
+                }
+                p{  
+                    margin-top: 1rem;
+                    color: $clr-lightGrey;
+                    font-size: 1.6rem;
+                    font-family: $fnt-main;
+                    line-height: 26px;
+                    letter-spacing: 0.1em;
+                    font-weight: 400;
+                }
+            }
+            .imgLeft{
+                z-index: 5;
+                position: relative;
+                left: 8rem;
+                height:100%;
+                width: 35rem;
+                
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                
+                &::after{
+                    content:'';
+                    z-index: -1;
+                    position: absolute;
+                    height:100%;
+                    width: 35rem;
+                    top:  -10%;
+                    left: -25%;
+                    background-color: $clr-accent-op;
+                }
+            } 
+            .imgRight{
+                z-index: 5;
+                position: relative;
+                right: 8rem;
+                height:100%;
+                width: 50rem;
+                
+                display: grid;
+                align-content: center;
+                justify-content: center;
+                
+                &::after{
+                    content:'';
+                    z-index: -1;
+                    position: absolute;
+                    height:100%;
+                    width: 35rem;
+                    top:  -10%;
+                    right: -5%;
+                    background-color: $clr-accent-op;
+                }
+            }  
+        }
+    }
+}

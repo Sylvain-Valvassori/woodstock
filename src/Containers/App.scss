@@ -1,0 +1,7 @@
+@use '../scss/Library' as *;
+
+html{
+    font-family: $fnt-main;
+    background-color: $clr-black;
+    color: $clr-white;
+}

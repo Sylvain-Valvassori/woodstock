@@ -1,0 +1,41 @@
+@use '../Library' as *;
+
+.LinkBtn{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    
+    color: $clr-black;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 3rem;
+    padding: 1.5rem 3rem;
+    border: .2rem solid $clr-accent;
+    border-radius: .5rem;
+    transition: all .2s ease-out;
+    &:hover{
+        color: $clr-white;
+        background-color: $clr-accent;
+    }
+    &::after{
+        content:'';
+        position: absolute;
+        top: calc(50% - .2rem);
+        left: 95%;
+        background-color: $clr-black;
+        width: 15rem;
+        height: .2rem;
+    }
+}
+
+.lightClr{
+    color: $clr-white;
+    &:hover{
+        color: $clr-white;
+        background-color: $clr-accent;
+    }
+    &::after{
+        background-color: $clr-white;
+    }
+}

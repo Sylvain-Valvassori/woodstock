@@ -1,0 +1,63 @@
+@use '../Library' as *;
+
+.C-Section{
+    color: $clr-white;
+    background-color: $clr-brun;
+    .C-Container{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display:flex;
+        padding: 0 5rem;
+        h2{
+            font-size: 5rem;
+            font-weight: 800;
+        }
+        .titleSectionC{
+            z-index: 3;
+            position: absolute;
+            top: 5%;
+            left: 40%;
+
+            color: $clr-black;
+            text-align: center;
+            // width: 80rem;
+            height: fit-content;
+            padding: 1rem 3rem;
+            background-color: $clr-white;
+        }
+        // background-color: $clr-white; 
+        .C-Content{
+            width: 50%;
+            height: 100%;
+            display:grid;
+            align-content: center;
+            justify-content: center;            
+            
+            .C-Item{
+                width: 45rem;
+                margin: 12rem 5rem 5rem 5rem;
+                font-family: $fnt-main;
+                p{  
+                    margin: 5rem 0;
+                    font-size: 1.6rem;
+                    font-family: $fnt-main;
+                    line-height: 26px;
+                    letter-spacing: 0.1em;
+                    font-weight: 400;
+                }
+            } 
+            .imgRuban {
+                z-index: 2;
+                position: absolute;
+                left: 22%;
+                width: 35rem;
+                height: 100vh;
+                background-image: url('/images/f5.jpg');
+                background-repeat: no-repeat;
+                background-position: 10%;
+                background-size: cover;
+           }
+        }
+    }
+}
