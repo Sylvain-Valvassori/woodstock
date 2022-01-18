@@ -1,4 +1,13 @@
 
+<img src="https://badgen.net/badge/release/13.01.2022/green?icon=bitcoin-lightning">
+
+<img src="https://badgen.net/github/release/babel/babel">
+
+<img src="https://badgen.net/github/release/Sylvain-Valvassori/woodstock">
+
+
+
+/github/release/:owner/:repo/:channel?
 # Woodstock
 <p align="center">
   <img width="auto" height="auto" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white " alt="GitHub's views"/>
