@@ -12,6 +12,8 @@
 
 #### Context : Woodstock is a project adapted from this [model](https://www.figma.com/proto/fB6MeHVqXD5Gd9qzMPpzOc/WoodSock?node-id=0%3A2&scaling=min-zoom) to learn the basics and understand the React js library.<br>
 
+
+
 ### Objectives 
 
 * Create a website with React js
@@ -28,8 +30,4 @@
 </p>
 <br>
 
-
-
-
-	
-                                
+<p align="center">:point_up:&nbsp; <a href="#top">Back to top</a></p>
