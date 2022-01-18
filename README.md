@@ -1,14 +1,7 @@
+# Woodstock &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; &ensp; <img src="https://badgen.net/badge/MADE BY/Sylvain Valvassori/green"> <img src="https://badgen.net/github/release/Sylvain-Valvassori/woodstock/green?icon=bitcoin-lightning"> <img src="https://badgen.net/github/last-commit/Sylvain-Valvassori/woodstock/main">
+<br>
 
-<img src="https://badgen.net/badge/release/13.01.2022/green?icon=bitcoin-lightning">
-
-<img src="https://badgen.net/github/release/babel/babel">
-
-<img src="https://badgen.net/github/release/Sylvain-Valvassori/woodstock">
-
-
-
-/github/release/:owner/:repo/:channel?
-# Woodstock
+### Languages I used 
 <p align="center">
   <img width="auto" height="auto" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white " alt="GitHub's views"/>
   <img width="auto" height="auto" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="GitHub's views"/>
